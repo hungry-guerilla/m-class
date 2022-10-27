@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Nunito", sans-serif;
+    color:#5b5766;
+    font-size: 1.8rem;
+}
+
+h1,h2,h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #554d89;
+}
+.btn {
+    border: none;
+    text-decoration: none;
+    border-radius: 40px;
+    height: 40px;
+    padding: 0 1.5rem;
+    font-family: "Poppins", sans-serif;
+    color: #554d89;
+
+}
+.btn-light {
+    background-color: transparent;
+    border: #6852ed solid;
+    font-size: 1.4rem;
+    color:#6852ed;
+}
+.header-actions__text {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+}
+.divider {
+    border: none;
+    border-bottom: 1px solid #e1e4ed;
+}
+.wrapper {
+    width: 1146px;
+    margin: 0 auto;
+}
+.top-header {
+    display: flex;
+    justify-content: space-between; 
+    padding: 2.4rem 0 1.7rem ;
+    font-size: 1.6rem;
+    letter-spacing: .22rem;
+}
+
+.top-header__text {
+    color: #716c80;
+    font-size: 1.6rem;
+}
+.top-header__phone {
+    text-decoration: none;
+    color: #716c80;
+    transition: 0.6s all;
+}
+.top-header__phone:hover {
+    text-decoration: underline;
+}
+
+ .top-header__phone::before {
+    content: '\f095';
+    font-family: FontAwesome;
+    margin-right: 0.8rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+.header-navbar {
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    display: block;
+    margin-right: 5.8rem;
+}
+.header__menu {
+    display: flex;
+}
+.header__menu-item {
+    margin-right: 3rem;
+    position: relative;
+    padding: 1.8rem 0;
+
+    transition: .4s all;
+}
+.header__menu-item:last-child {
+    margin-right: 0;
+}
+.header__submenu {
+    display: none;
+    position: absolute;
+    top: 5.4rem;
+    left: -3rem;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #e1e4ed;
+    background-color: #ffffff;
+
+    transition: .4s all;
+}
+.header__submenu > .header__menu-item {
+    padding: 0;
+    margin-bottom: 1rem;
+}
+.header__submenu > .header__menu-item:last-child {
+    margin-bottom: 0;
+}
+.header__menu-item:hover .header__submenu {
+    display: block;
+}
+.header__menu-link {
+    text-decoration: none;
+    color: #5B5766;
+    font-weight: 400;
+    font-size: 1.6rem;
+
+    transition: .4s all;
+}
+.header__menu-link:hover {
+    color: #554d89;
+    text-shadow: 0 0 1px #554d89 ;
+}
+
+.header__menu-link_active {
+    color:#554d89;
+    font-weight: 700;
+}
