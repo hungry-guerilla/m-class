@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    transition: .5s all linear;
 }
 
 html {
@@ -228,4 +229,114 @@ h1,h2,h3 {
     margin: auto;
     font-size: 5rem;
    
+}
+
+/* --------INFOBLOCK------- */
+.features {
+    margin-top: 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30rem;
+}
+.infoblock {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px #E1E4ED;
+    border-radius: 10px;
+    padding: 3rem;
+    width: 36rem;
+}
+
+.infoblock:hover {
+    background: linear-gradient(26.57deg, #6852ED 16.67%, #BA43FC 100%);
+    box-shadow: 0px 0px 20px rgba(104, 82, 237, 0.8);
+    color: #fff;
+    box-sizing: border-box;
+}
+.infoblock .fa-solid {
+    font-size: 3.2rem;
+    color: #6852ED;
+}
+
+.infoblock__title {
+    font-size: 2.2rem;
+    margin-bottom: 1.9rem;
+}
+.infoblock__text {
+    color: #716c80;
+}
+.infoblock__link {
+    display: none;
+    color:#fff;
+    padding-top: 3rem;
+}
+.infoblock:hover .fa-solid {
+    display: none;
+    box-sizing: border-box;
+}
+
+.infoblock:hover .infoblock__title {
+    color:#fff;
+    box-sizing: border-box;
+}
+
+.infoblock:hover .infoblock__text {
+    color:#fff;
+}
+
+.infoblock:hover .infoblock__link {
+    display: inline-block;
+}
+
+/* --------ARTICLE-------- */
+.article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 12rem;
+}
+.article__reverse {
+    flex-direction: row-reverse;
+    
+}
+.article__image, .article__content {
+    width: 50%;
+    flex-shrink: 0;
+}
+.article__content {
+    padding-left: 3rem ;
+}
+.article__title {
+    font-size: 2.8rem;
+    line-height: 1.5;
+    color: #554D89;
+    margin-bottom: 3rem;
+}
+.article__text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #716C80;
+    margin-bottom: 6rem;
+}
+.article__actions {
+}
+.article .btn {
+    margin-right: 3rem;
+}
+.btn-dark {
+}
+.link {
+}
+.link-arrow {
+}
+
+.bg {
+    display: block;
+    margin: 0 auto;
+    width: 192rem;
+    height: 48rem;
+    background-image: url("/img/Backgroundbg.png");
+    background-repeat: no-repeat;
+
 }
