@@ -12,6 +12,8 @@ body {
     font-family: "Nunito", sans-serif;
     color:#5b5766;
     font-size: 1.8rem;
+    line-height: 1.5;
+    /* overflow: hidden; */
 }
 
 h1,h2,h3 {
@@ -19,6 +21,8 @@ h1,h2,h3 {
     font-weight: bold;
     color: #554d89;
 }
+
+/* -----------HEADER------------- */
 .btn {
     border: none;
     text-decoration: none;
@@ -27,6 +31,7 @@ h1,h2,h3 {
     padding: 0 1.5rem;
     font-family: "Poppins", sans-serif;
     color: #554d89;
+    cursor: pointer;
 
 }
 .btn-light {
@@ -34,6 +39,32 @@ h1,h2,h3 {
     border: #6852ed solid;
     font-size: 1.4rem;
     color:#6852ed;
+}
+.btn-dark {
+    color: #fff;
+    height: 5rem;
+    background: linear-gradient(26.57deg, #6852ED 16.67%, #BA43FC 100%);
+    border-radius: 40px;
+    padding: 1.3rem 3rem;
+}
+.link {
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #554D89;
+    cursor: pointer;
+}
+.link:hover {
+    text-shadow: 0 0 1px #554D89;
+}
+.link-arrow::after {
+    content:'\f061';
+    font-family: FontAwesome;
+    margin-left: 1.5rem;
 }
 .header-actions__text {
     display: inline-block;
@@ -140,4 +171,61 @@ h1,h2,h3 {
 .header__menu-link_active {
     color:#554d89;
     font-weight: 700;
+}
+
+/* -----------FIRST SECTION------------- */
+.stage {
+    margin-top: 11.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stage > img {
+    margin-top: -3rem;
+}
+
+.stage__content {
+    position: relative;
+    top: -7rem;
+}
+
+.stage__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 6rem;
+    color:#554d89;
+    margin-bottom: 3.2rem;
+}
+.stage__text {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 4rem;
+}
+
+.stage__actions .btn-dark {
+    margin-right: 3rem;
+
+}
+
+.btn-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 11rem;
+    height: 11rem;
+    background-color: #6852ed;
+    border-radius: 50%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+.btn-bottom > i {
+    margin: auto;
+    font-size: 5rem;
+   
 }
