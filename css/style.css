@@ -175,6 +175,7 @@ h1,h2,h3 {
 
 /* -----------FIRST SECTION------------- */
 .stage {
+    position: relative;
     margin-top: 11.4rem;
     display: flex;
     justify-content: space-between;
