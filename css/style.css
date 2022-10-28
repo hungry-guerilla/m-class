@@ -14,7 +14,6 @@ body {
     color:#5b5766;
     font-size: 1.8rem;
     line-height: 1.5;
-    /* overflow: hidden; */
 }
 
 h1,h2,h3 {
@@ -319,24 +318,58 @@ h1,h2,h3 {
     color: #716C80;
     margin-bottom: 6rem;
 }
-.article__actions {
-}
 .article .btn {
     margin-right: 3rem;
 }
-.btn-dark {
-}
-.link {
-}
-.link-arrow {
-}
-
+/* -----------BG------------ */
 .bg {
     display: block;
     margin: 0 auto;
-    width: 192rem;
+    max-width: 192rem;
     height: 48rem;
-    background-image: url("/img/Backgroundbg.png");
-    background-repeat: no-repeat;
+    background: no-repeat center url("/img/Backgroundbg.png");
+    margin-bottom: 12rem;
+    
+}
 
+.bg__content {
+    padding-top: 13rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bg__content button {
+    border-radius: 90%;
+    width: 8rem;
+    height: 8rem;
+    color: linear-gradient(26.57deg, #6852ED 16.67%, #BA43FC 100%);
+    margin-bottom: 2.4rem;
+}
+.bg__content button .fa-solid {
+    font-size: 3rem;
+}
+
+.bg__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 1.5;
+    color: #554D89;
+    margin-bottom: 1.9rem;
+}
+
+.bg__text {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    /* or 156% */
+
+    text-align: center;
+
+    color: #5B5766;
 }
