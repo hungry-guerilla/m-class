@@ -524,6 +524,7 @@ h1,h2,h3 {
 /* ---------PRICES----------- */
 .price__section {
     margin-top: 14rem;
+    margin-bottom: 14rem;
     
 }
 .price__items {
@@ -627,3 +628,183 @@ h1,h2,h3 {
     mix-blend-mode: normal;
     opacity: 0.5;
 }
+/* --------SUPPORT--------- */
+.support {
+    margin-left: 5rem;
+    margin-bottom: 12rem;
+}
+.support__content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.support__item {
+    position: relative;
+    width: 55.5rem;
+    height: 15.8rem;
+    margin-bottom: 3rem;
+}
+.support__item:last-child {
+    margin-bottom: 0;
+}
+.support__item  > .fa-regular{
+    position: absolute;
+    height: 3.2rem;
+    font-size: 3.2rem;
+    left: -8%;
+    text-align: center;
+    color: #6852ED;
+}
+.support__item  > .fa-headphones-simple {
+    position: absolute;
+    height: 3.2rem;
+    font-size: 3.2rem;
+    left: -8%;
+    text-align: center;
+    color: #6852ED;
+}
+.support__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #554D89;
+    margin-bottom: 2rem;
+}
+
+.support__text {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #716C80;
+    margin-bottom: 2.8rem;
+}
+
+/* -----FOOOOTEEEEER------ */
+.footer {
+    display: block;
+    margin: 0 auto;
+    max-width: 192rem;
+    height: 50rem;
+    background: no-repeat center url("/img/Bgfoot.png");
+}
+.footer__content {
+    padding-top: 10rem ;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__contacts {
+    /* padding: 10rem 10.9rem 16.5rem 2rem ; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer__contacts-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+.footer__call {
+    position: relative;
+    margin-left: 7rem;
+    margin-bottom: 3rem;
+}
+.footer__call > a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer__call > .fa-phone {
+    position: absolute;
+    height: 42px;
+    right: 102%;
+    top: 10%;
+    font-size: 42px;
+    line-height: 42px;
+    /* identical to box height, or 100% */
+
+
+    color: #FFFFFF;
+}
+.footer__call-title {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footer__contacts-adress > .adress {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+.footer__contacts-adress > a {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* .footer__links {
+    max-width: 29.9rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+} */
+
+.footer__links-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #554D89;
+    margin-bottom: 3rem;
+}
+.footer-link {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #554D89;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.links__flex {
+    display: flex;
+}
+
+.f__links-one {
+    margin-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 60%;
+}
+.f__links-two {
+    flex:60%;
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+}
+
